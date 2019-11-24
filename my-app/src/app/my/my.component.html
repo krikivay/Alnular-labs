@@ -1,0 +1,8 @@
+<div>
+  
+    <form oninput="result.value=cm.value">
+        <p><input type="text" class="form-control" value = {{value}} (input)="output($event)"></p>
+        <p>{{value}}</p>
+        <p><button [disabled] = "able" class = "btn btn-primary" (click)="changeValue()">Очистить</button>
+      </form>
+</div>
