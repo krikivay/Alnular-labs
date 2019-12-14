@@ -1,0 +1,5 @@
+-------Inactive-------
+<div *ngFor="let user of userService.inactiveUsers">
+  {{user}}
+  <button (click)="userService.setToActive(user)">Set to active</button>
+</div>
