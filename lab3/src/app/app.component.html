@@ -1,0 +1,11 @@
+
+<p>
+  <input [(ngModel)]="newUser" />
+  <button class = "btn btn-primary" (click)="addNewUser()">Add person</button>
+</p>
+
+<app-active-user></app-active-user>
+<app-inactive-user></app-inactive-user>
+<hr>
+<h4>count:</h4>
+{{counterService.counter}}
